@@ -14,7 +14,6 @@ exports.handler = async (event) => {
     try {
         const performedHabits = await s3.getObject(params).promise();
         
-        // TODO: Turn this into a javascript object from string
         const responseBody = performedHabits.Body.toString('ascii');
         
         return {

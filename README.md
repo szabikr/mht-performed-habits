@@ -1,3 +1,5 @@
+# This project is now archived
+
 # mht-performed-habits
 This contains all the resources for performed habits service
 
@@ -5,3 +7,4 @@ Currently there are 2 lambda functions attached to `/performed-habits` API resou
 
 1. getPerfromedHabits
 2. addPerfromedHabit
+
